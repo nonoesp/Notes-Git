@@ -3,9 +3,9 @@ Notes-Git
 
 ### Git
 
-`git add .` add new and modified files to the commit
+`$ git add .` add new and modified files to the commit
 
-`git add -u` add deleted files to the commit
+`$ git add -u` add deleted files to the commit
 
 
 ### Terminal
