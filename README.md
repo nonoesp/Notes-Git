@@ -9,11 +9,13 @@ Notes-Git
 
 `$ git add -u` add deleted files to the commit
 
-##### .gitignore
+### Ignoring files with .gitignore
 
 In git, rules can be specified to ignore certain files or file types in your commits.
 
-* `.gitignore file to ignore the .bak, .dwl and .dwl2 file-types`
+#### Ignore file-types
+
+.gitignore file to ignore the .bak, .dwl and .dwl2 file-types
 
 ```
 *.bak
@@ -21,7 +23,9 @@ In git, rules can be specified to ignore certain files or file types in your com
 *.dwl2
 ```
 
-* `.gitignore file to ignore specific files named .DS_Store, Thumbs.db`
+#### Ignore specific files
+
+.gitignore file to ignore specific files named .DS_Store, Thumbs.db
 
 ```
 .DS_Store
