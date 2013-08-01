@@ -9,7 +9,24 @@ Notes-Git
 
 `$ git add -u` add deleted files to the commit
 
-`$ git commit -a -m "Commit message"` Add and commit all the files
+##### .gitignore
+
+In git, rules can be specified to ignore certain files or file types in your commits.
+
+* `.gitignore file to ignore the .bak, .dwl and .dwl2 file-types`
+
+```
+*.bak
+*.dwl
+*.dwl2
+```
+
+* `.gitignore file to ignore specific files named .DS_Store, Thumbs.db`
+
+```
+.DS_Store
+Thumbs.db
+```
 
 #### Downloads
 
