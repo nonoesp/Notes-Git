@@ -1,7 +1,7 @@
 Notes-Git
 =========
 
-### Git
+## Git
 
 `$ git add --all` add all files to the commit
 
@@ -11,8 +11,12 @@ Notes-Git
 
 `$ git commit -a -m "Commit message"` Add and commit all the files
 
+#### Downloads
 
-### Terminal
+* [WIN](https://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git)
+
+
+## Terminal
 
 Notes on git and terminal commands.
 
