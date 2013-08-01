@@ -11,7 +11,7 @@ Notes-Git
 
 ### Ignoring files with .gitignore
 
-In git, rules can be specified to ignore certain files or file types in your commits.
+In git, ignore *rules* can be specified to exlude certain files or file types from your commits. This *rules* are specified in the .gitignore file, on the root folder for the whole project or in sub-folders for folder-specific *rules*.
 
 #### Ignore file-types
 
