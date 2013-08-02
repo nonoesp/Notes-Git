@@ -3,11 +3,16 @@ Notes-Git
 
 ## Git
 
+`$ git clone /path/to/repository` clones repository to current folder
+
+`$ git pull origin master` updates local data from repository
+
 `$ git add --all` add all files to the commit
 
-`$ git add .` add new and modified files to the commit
+`$ git commit -a -m "Commit message"`commit merged file after conflict is solved
 
-`$ git add -u` add deleted files to the commit
+`$ git push origin master` push committed date to repository
+
 
 ### Ignoring files with .gitignore
 
