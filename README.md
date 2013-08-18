@@ -47,3 +47,13 @@ Thumbs.db
 Notes on git and terminal commands.
 
 `alias desktop='cd /Users/nono/Desktop'` Create an alias or shortcut for a command on the terminal
+
+
+## git-ftp
+
+To have the correct version on OS X, we can install git-ftp with homebrew as follows:
+
+```
+brew tap homebrew/dupes
+brew install grep
+```
