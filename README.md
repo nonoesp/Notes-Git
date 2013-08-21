@@ -54,6 +54,11 @@ Notes on git and terminal commands.
 
 ## git-ftp
 
+With git-ftp, you can push our commit to an ftp server and git-ftp will only upload the files that have been changed. It is not what Git is intended for, but in a lot of cases it is a really comfortable use.
+
+`$ git ftp push -u USERNAME -p PASSWORD ftp.server.com/path/to/upload` push your current added and committed changed files to the ftp server
+
+### Install
 To have the correct version on OS X, we can install git-ftp with homebrew as follows:
 
 ```
