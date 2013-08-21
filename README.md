@@ -1,5 +1,6 @@
 Notes-Git
 =========
+Notes on basic concepts of Git.
 
 ## Git
 
@@ -8,6 +9,8 @@ Notes-Git
 `$ git pull origin master` updates local data from repository
 
 `$ git add --all` add all files to the commit
+
+`$ git commit -m "Commit message"` commit all the changes done to *previously added* files
 
 `$ git commit -a -m "Commit message"`commit merged file after conflict is solved
 
@@ -57,3 +60,7 @@ To have the correct version on OS X, we can install git-ftp with homebrew as fol
 brew tap homebrew/dupes
 brew install grep
 ```
+
+### Ignoring files with .git-ftp-ignore
+
+As we can do in Git to ignore files and filetypes, git-ftp allows us to define what to ignore when pushing things to an ftp server. This file does not have any influence in our .gitignore behavior.
