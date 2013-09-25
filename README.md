@@ -16,6 +16,15 @@ Notes on basic concepts of Git.
 
 `$ git push origin master` push committed date to repository
 
+**Start a New Reposity Locally**
+
+`cd my_project`  
+`git init`  
+`git add *`  
+`git commit -m "My initial commit message"`  
+`git remote add origin git@example.com:my_project.git`  
+`git push -u origin master`  
+
 
 ### Ignoring files with .gitignore
 
