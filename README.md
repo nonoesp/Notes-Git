@@ -49,6 +49,12 @@ In git, ignore *rules* can be specified to exlude certain files or file types fr
 Thumbs.db
 ```
 
+#### Tags
+
+Add tag `git tag -a "v1.0" -m "Message is here, can have line breaks."`
+Delete tag `git tag -d "v1.0"`
+List existing tags `git tag`
+
 #### Downloads
 
 * [WIN](https://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git)
