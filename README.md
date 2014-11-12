@@ -81,6 +81,14 @@ brew tap homebrew/dupes
 brew install grep
 ```
 
+### Change Repository Name
+
+First of all, change the name of the repository on the website you are using—Github or Bitbucket for instance. Then change the repository's remote origin with the following code:
+
+```
+git remote set-url origin {new-repository-url}
+```
+
 ### Ignoring files with .git-ftp-ignore
 
 As we can do in Git to ignore files and filetypes, git-ftp allows us to define what to ignore when pushing things to an ftp server. This file does not have any influence in our .gitignore behavior.
