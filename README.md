@@ -92,3 +92,11 @@ git remote set-url origin {new-repository-url}
 ### Ignoring files with .git-ftp-ignore
 
 As we can do in Git to ignore files and filetypes, git-ftp allows us to define what to ignore when pushing things to an ftp server. This file does not have any influence in our .gitignore behavior.
+
+## License
+
+Notes-Git is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+
+## Me
+
+I tweet at [@nonoesp](http://www.twitter.com/nonoesp) and blog at [nono.ma/says](http://nono.ma/says). I would love to hear about it if you find these notes are useful. Thanks!
