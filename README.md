@@ -51,19 +51,19 @@ Thumbs.db
 
 #### Log
 
-List commits `git log --pretty=oneline`
+List commits `git log --pretty=oneline`  
 
 #### Tags
 
-Add tag `git tag -a "v1.0" -m "Message is here, can have line breaks."`
-Add tag to specific commit `git tag -a "v1.0" 33bd889sf934nas -m "Message here." (commit can be the whole string or part of it)
-Delete tag `git tag -d "v1.0"`
-List existing tags `git tag`
+Add tag `git tag -a "v1.0" -m "Message is here, can have line breaks."`  
+Add tag to specific commit `git tag -a "v1.0" 33bd889sf934nas -m "Message here."` (commit can be the whole string or part of it)  
+Delete tag `git tag -d "v1.0"`   
+List existing tags `git tag`    
 
 #### Submodules
 
-Add a submodule w/o path `git submodule add https://github.com/nonoesp/thinker`
-Add a submodule w/ path `git submodule add https://github.com/nonoesp/thinker relative/path/for/submodule`
+Add a submodule w/o path `git submodule add https://github.com/nonoesp/thinker`  
+Add a submodule w/ path `git submodule add https://github.com/nonoesp/thinker relative/path/for/submodule`  
 
 #### Downloads
 
@@ -74,7 +74,7 @@ Add a submodule w/ path `git submodule add https://github.com/nonoesp/thinker re
 
 Notes on git and terminal commands.
 
-`alias desktop='cd /Users/nono/Desktop'` Create an alias or shortcut for a command on the terminal
+`alias desktop='cd /Users/nono/Desktop'` Create an alias or shortcut for a command on the terminal  
 
 
 ## git-ftp
