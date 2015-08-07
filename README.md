@@ -56,7 +56,7 @@ List commits `git log --pretty=oneline`
 #### Tags
 
 Add tag `git tag -a "v1.0" -m "Message is here, can have line breaks."`  
-Add tag to specific commit `git tag -a "v1.0" 33bd889sf934nas -m "Message here."` (commit can be the whole string or part of it)  
+Add tag to specific commit `git tag -a "v1.0" c4cdb89s -m "Message here."`
 Delete tag `git tag -d "v1.0"`   
 List existing tags `git tag`    
 
