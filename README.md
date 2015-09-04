@@ -103,6 +103,16 @@ git remote set-url origin {new-repository-url}
 
 As we can do in Git to ignore files and filetypes, git-ftp allows us to define what to ignore when pushing things to an ftp server. This file does not have any influence in our .gitignore behavior.
 
+### Activate Authentication Keychain Storage on OS X
+
+First, run the following command to make sure the git-credential-osxkeychain program is installed and working in your computer.
+
+	chmod a+x git-credential-osxkeychain
+
+Then, run the following command—which will store your username and password inside your OS X keychain the next time you log in.
+
+	git config --global credential.helper osxkeychain
+
 ## License
 
 Notes-Git is licensed under the MIT license. (http://opensource.org/licenses/MIT)
