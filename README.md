@@ -67,7 +67,7 @@ Add a submodule w/ path `git submodule add https://github.com/nonoesp/thinker re
 
 #### Downloads
 
-* [WIN](https://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git)
+* [WIN](https://git-scm.com/download/win)
 
 
 ## Terminal
