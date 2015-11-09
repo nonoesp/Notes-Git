@@ -16,7 +16,7 @@ Notes on basic concepts of Git.
 
 `$ git push origin master` push committed date to repository
 
-**Start a New Reposity Locally**
+**Start a New Repository Locally**
 
 `cd my_project`  
 `git init`  
