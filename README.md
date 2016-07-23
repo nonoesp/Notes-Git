@@ -69,6 +69,7 @@ Push removed tag `git push origin :refs/tags/release01`
 Create a new branch `git checkout -b your_branch_name`  
 Push a branch `git push origin your_branch_name`  
 See all branches created `git branch`  
+Clone a specific `branch git clone git@github.com:nonoesp/laravel-authenticate.git --branch 5.2`  
 [More on branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)  
 
 #### Submodules
