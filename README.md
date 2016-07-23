@@ -64,6 +64,13 @@ Push tag `git push origin v1.0`
 Remove a tag `git tag -d release01`  
 Push removed tag `git push origin :refs/tags/release01`  
 
+#### Branches
+
+Create a new branch `git checkout -b your_branch_name`  
+Push a branch `git push origin your_branch_name`  
+See all branches created `git branch`  
+[More on branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)  
+
 #### Submodules
 
 Add a submodule w/o path `git submodule add https://github.com/nonoesp/thinker`  
