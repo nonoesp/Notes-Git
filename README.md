@@ -55,11 +55,11 @@ List commits `git log --pretty=oneline`
 
 #### Tags
 
-Add tag `git tag -a "v1.0" -m "Message is here, can have line breaks."`  
+Add tag `git tag -a "1.0" -m "Message is here, can have line breaks."`  
 Add tag to specific commit `git tag -a "v1.0" c4cdb89s -m "Message here."`   
-Delete tag `git tag -d "v1.0"`   
+Delete tag `git tag -d "1.0"`   
 List existing tags `git tag`    
-Push tag `git push origin v1.0`  
+Push tag `git push origin 1.0`  
 
 Remove a tag `git tag -d release01`  
 Push removed tag `git push origin :refs/tags/release01`  
