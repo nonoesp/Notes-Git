@@ -10,11 +10,17 @@ Notes on basic concepts of Git.
 
 `$ git add --all` add all files to the commit
 
-`$ git commit -m "Commit message"` commit all the changes done to *previously added* files
+`$ git commit -m "Commit message"` commit all the changes done to *previously added* files  
 
-`$ git commit -a -m "Commit message"`commit merged file after conflict is solved
+`$ git commit -a -m "Commit message"`commit merged file after conflict is solved  
 
-`$ git push origin master` push committed date to repository
+`$ git push origin master` push committed date to repository  
+
+`git rm README.md` removes README.md  
+
+`git mv README.txt README.md` Renames the file README.txt to README.md  
+
+`git status` outputs the status of the repository  
 
 **Start a New Repository Locally**
 
