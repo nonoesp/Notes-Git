@@ -70,6 +70,9 @@ Create a new branch `git checkout -b your_branch_name`
 Push a branch `git push origin your_branch_name`  
 See all branches created `git branch`  
 Clone a specific `branch git clone git@github.com:nonoesp/laravel-authenticate.git --branch 5.2`  
+Remove a branch locally `git branch -d your_branch_name`  
+Remove a branch remotely `git branch -dr origin/your_branch_name`  
+Remove the branch on git `git push origin :your_branch_name`  
 [More on branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)  
 
 #### Submodules
