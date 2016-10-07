@@ -76,6 +76,8 @@ Push removed tag `git push origin :refs/tags/release01`
 Create a new branch `git checkout -b your_branch_name`  
 Push a branch `git push origin your_branch_name`  
 See all branches created `git branch`  
+Switch to local branch (when is already visible in `git branch`) git checkout your_branch_name  
+Switch to remote branch (when is not visible in `git branch`) git checkout -b [branch] [remotename]/[branch]  
 Clone a specific `branch git clone git@github.com:nonoesp/laravel-authenticate.git --branch 5.2`  
 Remove a branch locally `git branch -d your_branch_name`  
 Remove a branch remotely `git branch -dr origin/your_branch_name`  
