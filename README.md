@@ -22,6 +22,14 @@ Notes on basic concepts of Git.
 
 `git status` outputs the status of the repository  
 
+**Stashing Changes**
+
+When you have done `git add --all`, for instance, all your changes would be sent on a new `git commit ...`. If you want to go back to HEAD—the state of your repository on your previous commit—you can stash your changes and they get saved to a `stash@{x}`.
+
+`git stash [save]`  
+`git stash apply [stash@{x}]` (`stash@{0}` by default) applies the changes on stash keeping the stash@{x}  
+`git stash pop [stash@{x}]` (`stash@{0}` by default) applies the changes on stash popping the stash@{x}
+
 **Start a New Repository Locally**
 
 `cd my_project`  
