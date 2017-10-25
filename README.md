@@ -39,6 +39,12 @@ When you have done `git add --all`, for instance, all your changes would be sent
 `git remote add origin git@example.com:my_project.git`  
 `git push -u origin master`  
 
+## Undo Last Commits
+
+These two strategies can be used to remove commits with their file changes or commits but keeping their file changes, but you won't be able to push to the same branch as there will be *non-forward changes.* You can get around by creating a new branch `git checkout -b new-branch-name`.
+
+`git reset --hard HEAD~1` delete the last commit and its changes to files  
+`git reset --soft HEAD~1` delete the last commit and keep its changes unstaged (useful to squeeze multiple commits into one)  
 
 ### Ignoring files with .gitignore
 
