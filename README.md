@@ -87,7 +87,7 @@ git fetch upstream
 ```
 3. Updating your fork from original repo to keep up with their changes:
 ```
-git pull upstream branch-to-pull
+git pull upstream branch-to-pull-from
 ```
 
 #### Log
