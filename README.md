@@ -97,7 +97,7 @@ git pull upstream branch-to-pull-from
 
 ## Log
 
-List commits `git log --pretty=oneline`  
+List commits `git log --oneline`
 
 ## Tags
 
